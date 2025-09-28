@@ -58,6 +58,8 @@ dependencies {
     implementation(libs.androidx.room.testing)
     implementation(libs.androidx.room.paging)
 
+//    Add the DataStore dependencies
+    implementation(libs.androidx.datastore.preferences)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
